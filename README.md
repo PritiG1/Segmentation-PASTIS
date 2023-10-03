@@ -21,6 +21,23 @@ In the `EDA-temporal-analysis.ipynb` notebook, I have undertaken a comprehensive
  ![Analysis of time variation of pixels](Figs/temp_analysis.001.jpeg)
 
 ## Data Preprocessing and Semantic segmentation (2D U-Net)
+In 'modeling.ipynb' notebook, we delve into the process of preparing our satellite image dataset for semantic segmentation tasks and leverage the power of the 2D U-Net architecture for this purpose.
+
+**Data Handling**
+
+- Temporal Augmentation: Each temporal slice of an image is treated as a distinct dataset entry.
+- Consistent Masks: Masks remain unaltered across temporal slices, leading to repetitive label information.
+
+**Segmentation Approach**
+
+- Employed the 2D U-Net architecture known for its efficacy in high-resolution image segmentation tasks.
+
+**Future Improvements**
+
+- Introduce Temporal Consistency in segmentation across different temporal slices.
+- Consider transitioning to 3D U-Net for a more holistic temporal analysis.
+- Explore Advanced Augmentation techniques to diversify mask data.
+
 
 ## Link to Medium article
 I plan to elaborate my code and learnings on Medium. Stay tuned!
