@@ -19,3 +19,8 @@ In the `EDA-temporal-analysis.ipynb` notebook, I have undertaken a comprehensive
  ![Satellite image for different temporal slices](Figs/timeevol_10008.png)
 
  ![Analysis of time variation of pixels](Figs/temp_analysis.001.jpeg)
+
+## Data Preprocessing and Semantic segmentation (2D U-Net)
+
+## Link to Medium article
+I plan to elaborate my code and learnings on Medium. Stay tuned!
